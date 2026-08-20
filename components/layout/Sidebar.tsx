@@ -44,7 +44,7 @@ export default function Sidebar({ mobileOpen, onClose }: { mobileOpen?: boolean;
       </div>
 
       <nav className="flex-1 space-y-1 p-1.5">
-        <div className="px-2 pb-1 pt-2 text-[12px] font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">
+        <div className="px-2 pb-1 pt-2 text-[13px] font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">
           منو
         </div>
         {nav.map((item) => {
