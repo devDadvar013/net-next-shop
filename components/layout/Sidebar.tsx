@@ -45,7 +45,7 @@ export default function Sidebar({ mobileOpen, onClose }: { mobileOpen?: boolean;
 
       <nav className="flex-1 space-y-1 p-1.5">
         <div className="px-2 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">
-          اصلی
+          منو
         </div>
         {nav.map((item) => {
           const Icon = item.icon;
